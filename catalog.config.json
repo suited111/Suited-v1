@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "currency": "NZD",
+  "targetSizes": [6,8,10,12,14,16,18,20],
+  "retailers": [
+    {
+      "id": "seed",
+      "name": "Seed Heritage",
+      "homepage": "https://www.seedheritage.com/nz/",
+      "sources": [
+        {"type":"catalog","url":"https://www.seedheritage.com/nz/my-search?cgid=root"}
+      ],
+      "status": "adapter-ready"
+    },
+    {
+      "id": "country-road",
+      "name": "Country Road",
+      "homepage": "https://www.countryroad.co.nz/",
+      "sources": [
+        {"type":"sitemap","url":"https://www.countryroad.co.nz/sitemap/"}
+      ],
+      "status": "adapter-ready"
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "homepage": "https://www.max.co.nz/",
+      "sources": [],
+      "status": "feed-needed"
+    }
+  ]
+}
