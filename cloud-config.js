@@ -1,8 +1,6 @@
-// Suited cloud account activation.
-// Leave these blank for the zero-cost device-account beta.
-// When a Supabase project is connected, add its public project URL and anon key here.
-// Never put a service-role/private key in this file.
+// Suited cloud configuration. This file contains only browser-safe public values.
+// Never put service-role keys or private provider credentials in this repository.
 window.SUITED_CLOUD_CONFIG={
-  supabaseUrl:'',
-  supabaseAnonKey:''
+  supabaseUrl:'https://zddeqtaxdhubknshkjov.supabase.co',
+  supabaseAnonKey:'sb_publishable_-bhw838DN4scgypBE_gEjw_fev1AH3X'
 };
