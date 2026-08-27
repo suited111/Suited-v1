@@ -10,22 +10,21 @@
 </head>
 <body>
   <header class="site-header">
-    <button class="brand" onclick="show('home')" aria-label="Suited home">
-      <span class="brand-mark">S</span><span class="brand-word">SUITED</span>
-    </button>
+    <button class="brand" onclick="show('home')" aria-label="Suited home"><span class="brand-mark">S</span><span class="brand-word">SUITED</span></button>
     <nav class="nav" aria-label="Main navigation">
       <button onclick="show('ask')">Ask Suited</button>
       <button onclick="show('saved')">Saved <span id="savedBadge" class="badge">0</span></button>
       <button onclick="show('profile')">My profile</button>
+      <button id="accountButton" onclick="account()">Account</button>
     </nav>
   </header>
   <main id="app" class="shell"></main>
-  <footer class="site-footer">
-    <div><strong>SUITED</strong><span>Personal style, matched to you.</span></div>
-    <small>V1 beta · New Zealand · Sizes 6–20</small>
-  </footer>
+  <footer class="site-footer"><div><strong>SUITED</strong><span>Personal style, matched to you.</span></div><small>V1 beta · New Zealand · Sizes 6–20</small></footer>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="cloud-config.js"></script>
   <script src="app.js"></script>
   <script src="live-catalog.js"></script>
+  <script src="account.js"></script>
 </body>
 </html>
