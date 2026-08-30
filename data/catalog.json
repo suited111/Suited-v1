@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T12:18:30.006Z",
+  "generatedAt": "2026-08-30T18:18:29.103Z",
   "count": 6,
   "products": [
     {
@@ -29,7 +29,7 @@
         "modern",
         "classic"
       ],
-      "updatedAt": "2026-08-30T12:18:29.990Z"
+      "updatedAt": "2026-08-30T18:18:29.086Z"
     },
     {
       "id": "cr-ponte",
@@ -58,7 +58,7 @@
         "classic",
         "minimal"
       ],
-      "updatedAt": "2026-08-30T12:18:29.990Z"
+      "updatedAt": "2026-08-30T18:18:29.086Z"
     },
     {
       "id": "max-lucy",
@@ -90,7 +90,7 @@
         "modern",
         "feminine"
       ],
-      "updatedAt": "2026-08-30T12:18:29.990Z"
+      "updatedAt": "2026-08-30T18:18:29.086Z"
     },
     {
       "id": "max-wrap",
@@ -122,7 +122,7 @@
         "classic",
         "feminine"
       ],
-      "updatedAt": "2026-08-30T12:18:29.990Z"
+      "updatedAt": "2026-08-30T18:18:29.086Z"
     },
     {
       "id": "seed-column",
@@ -152,7 +152,7 @@
         "feminine",
         "modern"
       ],
-      "updatedAt": "2026-08-30T12:18:29.990Z"
+      "updatedAt": "2026-08-30T18:18:29.086Z"
     },
     {
       "id": "seed-wrap",
@@ -183,7 +183,7 @@
         "classic",
         "modern"
       ],
-      "updatedAt": "2026-08-30T12:18:29.990Z"
+      "updatedAt": "2026-08-30T18:18:29.086Z"
     }
   ]
 }
